@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingMultiplier="0.5"
+            android:text="@string/title"
+            android:textColor="@color/colorWhite"
+            android:textSize="80sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/gloriahallelujah" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:lineSpacingExtra="-8dp"
+            android:paddingTop="50dp"
+            android:text="@string/subtitle"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:fontFamily="@font/gloriahallelujah" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:text="@string/btnSignUp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button_signup"
+            style="?android:attr/borderlessButtonStyle"/>
+
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:text="@string/btnSignIn"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button_signin"
+            style="?android:attr/borderlessButtonStyle"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

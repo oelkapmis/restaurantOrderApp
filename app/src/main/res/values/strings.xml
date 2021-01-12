@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RestaurantOrderApp</string>
+    <string name="title">Mmh Burger</string>
+    <string name="subtitle">Sizin için en temiz ve en lezzetli hamburgerleri hızlıca hazırlamayı kendimize görev edindik. Tattığınız her lokmada Mmh! dedirtecek lezzet.</string>
+    <string name="btnSignUp">Kayıt Ol</string>
+    <string name="btnSignIn">Giriş</string>
+    <string name="hintPhone">Telefon Numarası</string>
+    <string name="hintName">İsim</string>
+    <string name="hintPassword">Parola</string>
+</resources>
